@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/book_name"
+        android:hint="输入书名"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/book_id"
+        android:hint="输入书的编号"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/book_price"
+        android:hint="输入书的价格"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/book_author"
+        android:hint="输入书的作者"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/book_pages"
+        android:hint="输入书的页数"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/book_category"
+        android:hint="输入书的类别编号（101为计算机科学类|102为小说）"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:textColor="#5ABC4F"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_addBook"
+        android:text="添 加"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#5ABC4F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
